@@ -14,7 +14,7 @@ choco install microsoft-windows-terminal -y
 choco install git -y
 choco install curl -y
 choco install wget -y
-choco install nodejs -y
+choco install nodejs-lts -y
 choco install python3 -y
 choco install cmake -y
 choco install 7zip -y
@@ -44,6 +44,7 @@ choco install epicgameslauncher -y
 choco install freecad -y
 choco install steam -y
 choco install unity -y
+choco install renderdoc -y
 
 # browsers
 Write-Host "====> Installing web browsers..."
@@ -92,6 +93,7 @@ choco install sumatrapdf -y
 choco install treesizefree -y
 choco install vlc -y
 choco install vmware-workstation-player -y
+choco install drmemory -y
 
 # windows subsystem for linux
 Write-Host "====> Installing windows subsystem for linux..."

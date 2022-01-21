@@ -53,16 +53,6 @@ some useful components below:
   - Unreal Engine installer (Component.Unreal)
   - Cocos (Component.Cocos)
 
-## Windows Terminal Theme Installation
--------------
-If you want to install **Powerline Theme for Windows Terminal**, you can find more information on https://docs.microsoft.com/en-us/windows/terminal/tutorials/powerline-setup that website. The script will install 2 fonts and theme packages for you. Also, it requires extra efforts for adding Powerline support to your Powershell, such as opening Powershell Profile and adding some codes to it.
-
-Open your PowerShell profile with `notepad $PROFILE` or the text editor of your choice. Then add the following to the end of the file:
-
-    Import-Module posh-git
-    Import-Module oh-my-posh
-    Set-Theme Paradox
-
 ## Known Issues
 -------------
 

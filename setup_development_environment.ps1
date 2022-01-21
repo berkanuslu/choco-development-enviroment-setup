@@ -16,12 +16,6 @@ choco install Microsoft-Windows-Subsystem-Linux -y -source windowsfeatures
 choco install wsl2 --params "/Version:2 /Retry:true" -y
 choco install wsl-ubuntu-2004 --params "/InstallRoot:true" -y
 
-# fonts
-Write-Host "====> Installing fonts..."
-choco install firacode -y
-choco install cascadiafonts -y
-choco install oh-my-posh
-
 # core components
 Write-Host "====> Installing core components..."
 choco install cmder -y
@@ -99,6 +93,7 @@ choco install calibre -y
 #choco install dbeaver -y
 #choco install foxitreader -y
 choco install filezilla -y
+choco install firacode -y
 choco install insomnia-rest-api-client -y
 choco install grammarly -y
 #choco install hwmonitor -y
@@ -112,7 +107,7 @@ choco install slack -y
 choco install discord.install -y
 #choco install drmemory -y
 choco install sourcetrail -y
-#choco install spotify -y
+choco install spotify -y
 choco install sumatrapdf -y
 choco install treesizefree -y
 choco install vlc -y

@@ -27,6 +27,7 @@ choco install wget -y
 choco install nodejs-lts -y
 choco install python3 -y
 choco install cmake -y # version 3.22.1
+choco install ninja -y
 #choco install 7zip -y
 choco install docker-cli -y
 choco install kubernetes-cli -y
